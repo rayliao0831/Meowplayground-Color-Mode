@@ -1,0 +1,15 @@
+(function() {
+    'use strict';
+
+function changeBackground(color) {
+   document.body.style.background = color;
+}
+
+window.addEventListener("load",function() { changeBackground('red') });
+})();
+document.getElementById("header").style.backgroundColor = "#ff0000";
+document.getElementById("bottom-holder").style.backgroundColor = "#ff0000";
+document.getElementById("chat").style.backgroundColor = "#ffffff";
+document.getElementById("messages-list").style.backgroundColor = "#ff0000";
+document.getElementById("friends-list").style.backgroundColor = "#ffffff";
+document.getElementById("room-desc").style.backgroundColor = "#ffffff";
